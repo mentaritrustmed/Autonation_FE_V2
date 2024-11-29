@@ -37,9 +37,9 @@ describe('template spec', () => {
     // search
     cy.get('#ext-comp-1306').type('test');
     cy.get('#ext-gen271').click();
-
     // resfresh
     cy.get('#ext-gen264').click();
 
+  
   });
 });

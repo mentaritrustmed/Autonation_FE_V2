@@ -264,7 +264,6 @@ describe('Admission Module Test', () => {
             .should('be.visible')
             .and('contain', 'Confirmation');
         cy.get('#ext-comp-1033 > .x-btn-small > :nth-child(2) > .x-btn-mc').click();
-
         cy.get('#ext-gen29')
             .should('be.visible')
             .and('contain', 'Queue Confirmation');

@@ -116,7 +116,6 @@ describe('Admission Module Test', () => {
     cy.get('#ext-gen29', { timeout: 10000 }) // Tunggu hingga elemen muncul selama 10 detik
       .should('be.visible') // Pastikan pop-up terlihat
       .and('contain', 'Warning'); // Pastikan pop-up mengandung teks "Warning"
-
     // Klik tombol Close pada pop-up
     cy.get('#ext-comp-1032 > .x-btn-small > :nth-child(2) > .x-btn-mc').click();
   });

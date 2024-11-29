@@ -9,7 +9,6 @@ describe('template spec', () => {
     cy.get(':nth-child(2) > #MENU_SETTING').click();
     cy.get('#ext-comp-1295 > .x-btn-large > :nth-child(2) > .x-btn-mc > .x-btn-arrow').click();
     cy.get('#ext-comp-1191').click();
-    
 
   });
 });

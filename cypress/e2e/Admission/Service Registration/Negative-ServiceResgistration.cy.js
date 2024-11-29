@@ -27,7 +27,6 @@ describe('Admission Module Test', () => {
             .click(); // Klik sub-menu tersebut
 
     });
-
     // Test case untuk memverifikasi validasi jika data tidak lengkap
     it('Negative Test Case - Missing Required Fields', () => {
         // Klik tombol tambah data baru

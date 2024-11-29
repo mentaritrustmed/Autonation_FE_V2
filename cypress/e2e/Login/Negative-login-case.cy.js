@@ -12,5 +12,5 @@ describe('Login Page - Negative Test Case', () => {
 
     // 5. Verifikasi bahwa muncul pesan error "Username & password didn't match"
     cy.contains("Username & password didn't match").should('be.visible');
-  })
-})
+  });
+});

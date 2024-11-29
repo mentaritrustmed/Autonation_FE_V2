@@ -12,7 +12,6 @@ describe('template spec', () => {
     
     // // menambah data
     // cy.get('#ext-gen262').click();
-
     // // mengisi data
     // cy.get('#ext-comp-1334').type('7482');
     // cy.get('#ext-comp-1335').type('TEST');

@@ -10,5 +10,6 @@ describe('Login Page - Positive Test Case', () => {
     cy.get('#login-username').type(username); // Input username pada field login
     cy.get('#login-password').type(password); // Input password pada field login
     cy.get('#submit').click(); // Klik tombol login
+    
   });
 });

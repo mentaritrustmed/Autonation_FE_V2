@@ -113,6 +113,4 @@ describe('Admission Module Test', () => {
       .and('contain', 'Confirmation');
     cy.get('#ext-comp-1033 > .x-btn-small > :nth-child(2) > .x-btn-mc').click();
   });
-
-
 });
