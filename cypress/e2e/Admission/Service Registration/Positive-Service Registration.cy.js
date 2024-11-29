@@ -221,5 +221,54 @@ describe('Admission Module Test', () => {
     //     cy.get('#ext-comp-1032 > .x-btn-small > :nth-child(2) > .x-btn-mc').click();
 
     // });
+    it('Positive Test Case ', () => {
+        // List Patient Booking 
+        // cy.get('#ext-comp-1260 > .x-btn-small > :nth-child(1) > .x-btn-tc')
+        //     .click();
+        // cy.get('#ext-gen903 > .x-grid3-row > .x-grid3-row-table > tbody > tr > .x-grid3-td-1 > .x-grid3-cell-inner')
+        //     .click();
+        // cy.get('#medicalsupportregistration-navbtn2 > .x-btn-small > :nth-child(1) > .x-btn-tc')
+        //     .click();
+
+        // // Tambah Admission Method
+        // cy.get('#ext-comp-1334')
+        //     .type('DATANG SENDIRI');
+        // cy.get('.x-combo-list-item')
+        //     .should('be.visible')
+        //     .click();
+
+        // // Save Data
+        // cy.get('#ext-comp-1280 > .x-btn-small > :nth-child(1) > .x-btn-tc').click();
+
+        // cy.get('#ext-gen29')
+        //     .should('be.visible')
+        //     .and('contain', 'Confirmation');
+        // cy.get('#ext-comp-1033 > .x-btn-small > :nth-child(2) > .x-btn-mc').click();
+
+        // cy.get('#ext-gen990')
+        //     .should('be.visible')
+        //     .and('contain', 'Queue');
+
+        // cy.get('#ext-gen1003 > .x-grid3-row-last > .x-grid3-row-table > tbody > tr > .x-grid3-td-1 > .x-grid3-cell-inner')
+        //     .click();
+        // cy.get('#ext-comp-1614 > .x-btn-small > :nth-child(1) > .x-btn-tc')
+        //     .click();
+
+        // List Clinical Treatment   
+        cy.get('#ext-comp-1261 > .x-btn-small > :nth-child(1) > .x-btn-tc')
+            .click();
+        cy.get('#ext-gen903 > .x-grid3-row > .x-grid3-row-table > tbody > tr > .x-grid3-td-1 > .x-grid3-cell-inner')
+            .click();
+        cy.get('#ext-comp-1280 > .x-btn-small > :nth-child(1) > .x-btn-tc').click();
+        cy.get('#ext-gen29')
+            .should('be.visible')
+            .and('contain', 'Confirmation');
+        cy.get('#ext-comp-1033 > .x-btn-small > :nth-child(2) > .x-btn-mc').click();
+
+        cy.get('#ext-gen29')
+            .should('be.visible')
+            .and('contain', 'Queue Confirmation');
+        cy.get('#ext-comp-1033 > .x-btn-small > :nth-child(2) > .x-btn-mc').click();
+    });
 
 });
